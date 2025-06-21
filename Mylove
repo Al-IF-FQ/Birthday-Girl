@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Happy Birthday Sayang</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive;
+      background: linear-gradient(120deg, #ffe6f0, #e6f7ff);
+      text-align: center;
+      padding: 30px;
+      color: #333;
+    }
+    h1 {
+      color: #ff3399;
+      font-size: 3em;
+    }
+    .photos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .photos img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 20px;
+      border: 5px dashed #ff99cc;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transform: rotate(-2deg);
+      transition: transform 0.3s;
+    }
+    .photos img:hover {
+      transform: scale(1.05) rotate(2deg);
+    }
+    .love {
+      font-size: 1.8em;
+      margin-top: 40px;
+      color: #ff6699;
+      animation: pulse 1.5s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+    }
+  </style>
+</head>
+<body>
+  <h1>🎉 Selamat Ulang Tahun, Cintaku! 🎂</h1>
+  <p>Hari ini spesial banget karena ini harinya kamu... dan aku beruntung bisa merayakannya bareng kamu 😘</p>
+  
+  <div class="photos">
+    <img src="IMG_0505.jpg" alt="Foto 1">
+    <img src="IMG_1828.JPG" alt="Foto 2">
+    <img src="IMG_5002.GIF" alt="GIF lucu">
+    <img src="collage 2022-12-08 102109.800.JPG" alt="Kolase">
+    <img src="WhatsApp Image 2025-06-21 at 13.02.15.jpeg" alt="WA 1">
+    <img src="WhatsApp Image 2025-06-21 at 13.04.21.jpeg" alt="WA 2">
+  </div>
+
+  <div class="love">❤️ Aku sayang kamu hari ini, besok, dan selamanya! ❤️</div>
+</body>
+</html>
